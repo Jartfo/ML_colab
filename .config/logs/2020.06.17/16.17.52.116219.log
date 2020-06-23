@@ -1,0 +1,456 @@
+2020-06-17 16:17:52,128 DEBUG    root            Loaded Command Group: ['gcloud', 'components']
+2020-06-17 16:17:52,132 DEBUG    root            Loaded Command Group: ['gcloud', 'components', 'update']
+2020-06-17 16:17:52,136 DEBUG    root            Running [gcloud.components.update] with arguments: [--allow-no-backup: "True", --quiet: "True", COMPONENT-IDS:6: "['core', 'gcloud-deps', 'bq', 'gcloud', 'gsutil', 'anthoscli']"]
+2020-06-17 16:18:04,444 INFO     ___FILE_ONLY___ 
+
+2020-06-17 16:18:04,444 INFO     ___FILE_ONLY___ 
+Your current Cloud SDK version is: 297.0.0
+
+2020-06-17 16:18:04,445 INFO     ___FILE_ONLY___ Installing components from version: 297.0.0
+
+2020-06-17 16:18:04,445 INFO     ___FILE_ONLY___ 
+
+2020-06-17 16:18:04,457 INFO     ___FILE_ONLY___ ┌─────────────────────────────────────────────────────────────────────────────┐
+2020-06-17 16:18:04,457 INFO     ___FILE_ONLY___ 
+
+2020-06-17 16:18:04,457 INFO     ___FILE_ONLY___ │                     These components will be installed.                     │
+2020-06-17 16:18:04,457 INFO     ___FILE_ONLY___ 
+
+2020-06-17 16:18:04,457 INFO     ___FILE_ONLY___ ├─────────────────────────────────────────────────────┬────────────┬──────────┤
+2020-06-17 16:18:04,457 INFO     ___FILE_ONLY___ 
+
+2020-06-17 16:18:04,457 INFO     ___FILE_ONLY___ │                         Name                        │  Version   │   Size   │
+2020-06-17 16:18:04,457 INFO     ___FILE_ONLY___ 
+
+2020-06-17 16:18:04,457 INFO     ___FILE_ONLY___ ├─────────────────────────────────────────────────────┼────────────┼──────────┤
+2020-06-17 16:18:04,457 INFO     ___FILE_ONLY___ 
+
+2020-06-17 16:18:04,458 INFO     ___FILE_ONLY___ │ 
+2020-06-17 16:18:04,458 INFO     ___FILE_ONLY___ BigQuery Command Line Tool                         
+2020-06-17 16:18:04,458 INFO     ___FILE_ONLY___  
+2020-06-17 16:18:04,458 INFO     ___FILE_ONLY___ │ 
+2020-06-17 16:18:04,458 INFO     ___FILE_ONLY___     2.0.58
+2020-06-17 16:18:04,458 INFO     ___FILE_ONLY___  
+2020-06-17 16:18:04,458 INFO     ___FILE_ONLY___ │ 
+2020-06-17 16:18:04,458 INFO     ___FILE_ONLY___  < 1 MiB
+2020-06-17 16:18:04,458 INFO     ___FILE_ONLY___  
+2020-06-17 16:18:04,458 INFO     ___FILE_ONLY___ │
+2020-06-17 16:18:04,458 INFO     ___FILE_ONLY___ 
+
+2020-06-17 16:18:04,459 INFO     ___FILE_ONLY___ │ 
+2020-06-17 16:18:04,459 INFO     ___FILE_ONLY___ BigQuery Command Line Tool (Platform Specific)     
+2020-06-17 16:18:04,459 INFO     ___FILE_ONLY___  
+2020-06-17 16:18:04,459 INFO     ___FILE_ONLY___ │ 
+2020-06-17 16:18:04,459 INFO     ___FILE_ONLY___     2.0.57
+2020-06-17 16:18:04,459 INFO     ___FILE_ONLY___  
+2020-06-17 16:18:04,459 INFO     ___FILE_ONLY___ │ 
+2020-06-17 16:18:04,459 INFO     ___FILE_ONLY___  < 1 MiB
+2020-06-17 16:18:04,459 INFO     ___FILE_ONLY___  
+2020-06-17 16:18:04,459 INFO     ___FILE_ONLY___ │
+2020-06-17 16:18:04,459 INFO     ___FILE_ONLY___ 
+
+2020-06-17 16:18:04,459 INFO     ___FILE_ONLY___ │ 
+2020-06-17 16:18:04,459 INFO     ___FILE_ONLY___ Cloud SDK Core Libraries (Platform Specific)       
+2020-06-17 16:18:04,460 INFO     ___FILE_ONLY___  
+2020-06-17 16:18:04,460 INFO     ___FILE_ONLY___ │ 
+2020-06-17 16:18:04,460 INFO     ___FILE_ONLY___ 2020.05.15
+2020-06-17 16:18:04,460 INFO     ___FILE_ONLY___  
+2020-06-17 16:18:04,460 INFO     ___FILE_ONLY___ │ 
+2020-06-17 16:18:04,460 INFO     ___FILE_ONLY___  < 1 MiB
+2020-06-17 16:18:04,460 INFO     ___FILE_ONLY___  
+2020-06-17 16:18:04,460 INFO     ___FILE_ONLY___ │
+2020-06-17 16:18:04,460 INFO     ___FILE_ONLY___ 
+
+2020-06-17 16:18:04,460 INFO     ___FILE_ONLY___ │ 
+2020-06-17 16:18:04,460 INFO     ___FILE_ONLY___ Cloud Storage Command Line Tool                    
+2020-06-17 16:18:04,460 INFO     ___FILE_ONLY___  
+2020-06-17 16:18:04,461 INFO     ___FILE_ONLY___ │ 
+2020-06-17 16:18:04,461 INFO     ___FILE_ONLY___       4.51
+2020-06-17 16:18:04,461 INFO     ___FILE_ONLY___  
+2020-06-17 16:18:04,461 INFO     ___FILE_ONLY___ │ 
+2020-06-17 16:18:04,461 INFO     ___FILE_ONLY___  3.5 MiB
+2020-06-17 16:18:04,461 INFO     ___FILE_ONLY___  
+2020-06-17 16:18:04,461 INFO     ___FILE_ONLY___ │
+2020-06-17 16:18:04,461 INFO     ___FILE_ONLY___ 
+
+2020-06-17 16:18:04,461 INFO     ___FILE_ONLY___ │ 
+2020-06-17 16:18:04,461 INFO     ___FILE_ONLY___ Cloud Storage Command Line Tool (Platform Specific)
+2020-06-17 16:18:04,461 INFO     ___FILE_ONLY___  
+2020-06-17 16:18:04,461 INFO     ___FILE_ONLY___ │ 
+2020-06-17 16:18:04,461 INFO     ___FILE_ONLY___       4.50
+2020-06-17 16:18:04,462 INFO     ___FILE_ONLY___  
+2020-06-17 16:18:04,462 INFO     ___FILE_ONLY___ │ 
+2020-06-17 16:18:04,462 INFO     ___FILE_ONLY___  < 1 MiB
+2020-06-17 16:18:04,462 INFO     ___FILE_ONLY___  
+2020-06-17 16:18:04,462 INFO     ___FILE_ONLY___ │
+2020-06-17 16:18:04,462 INFO     ___FILE_ONLY___ 
+
+2020-06-17 16:18:04,462 INFO     ___FILE_ONLY___ │ 
+2020-06-17 16:18:04,462 INFO     ___FILE_ONLY___ Default set of gcloud commands                     
+2020-06-17 16:18:04,462 INFO     ___FILE_ONLY___  
+2020-06-17 16:18:04,462 INFO     ___FILE_ONLY___ │ 
+2020-06-17 16:18:04,462 INFO     ___FILE_ONLY___           
+2020-06-17 16:18:04,462 INFO     ___FILE_ONLY___  
+2020-06-17 16:18:04,463 INFO     ___FILE_ONLY___ │ 
+2020-06-17 16:18:04,463 INFO     ___FILE_ONLY___         
+2020-06-17 16:18:04,463 INFO     ___FILE_ONLY___  
+2020-06-17 16:18:04,463 INFO     ___FILE_ONLY___ │
+2020-06-17 16:18:04,463 INFO     ___FILE_ONLY___ 
+
+2020-06-17 16:18:04,463 INFO     ___FILE_ONLY___ │ 
+2020-06-17 16:18:04,463 INFO     ___FILE_ONLY___ anthoscli                                          
+2020-06-17 16:18:04,463 INFO     ___FILE_ONLY___  
+2020-06-17 16:18:04,463 INFO     ___FILE_ONLY___ │ 
+2020-06-17 16:18:04,463 INFO     ___FILE_ONLY___           
+2020-06-17 16:18:04,463 INFO     ___FILE_ONLY___  
+2020-06-17 16:18:04,463 INFO     ___FILE_ONLY___ │ 
+2020-06-17 16:18:04,463 INFO     ___FILE_ONLY___         
+2020-06-17 16:18:04,464 INFO     ___FILE_ONLY___  
+2020-06-17 16:18:04,464 INFO     ___FILE_ONLY___ │
+2020-06-17 16:18:04,464 INFO     ___FILE_ONLY___ 
+
+2020-06-17 16:18:04,464 INFO     ___FILE_ONLY___ │ 
+2020-06-17 16:18:04,464 INFO     ___FILE_ONLY___ anthoscli                                          
+2020-06-17 16:18:04,464 INFO     ___FILE_ONLY___  
+2020-06-17 16:18:04,464 INFO     ___FILE_ONLY___ │ 
+2020-06-17 16:18:04,464 INFO     ___FILE_ONLY___     0.1.10
+2020-06-17 16:18:04,464 INFO     ___FILE_ONLY___  
+2020-06-17 16:18:04,464 INFO     ___FILE_ONLY___ │ 
+2020-06-17 16:18:04,464 INFO     ___FILE_ONLY___ 42.8 MiB
+2020-06-17 16:18:04,464 INFO     ___FILE_ONLY___  
+2020-06-17 16:18:04,465 INFO     ___FILE_ONLY___ │
+2020-06-17 16:18:04,465 INFO     ___FILE_ONLY___ 
+
+2020-06-17 16:18:04,465 INFO     ___FILE_ONLY___ │ 
+2020-06-17 16:18:04,465 INFO     ___FILE_ONLY___ gcloud cli dependencies                            
+2020-06-17 16:18:04,465 INFO     ___FILE_ONLY___  
+2020-06-17 16:18:04,465 INFO     ___FILE_ONLY___ │ 
+2020-06-17 16:18:04,465 INFO     ___FILE_ONLY___ 2020.06.12
+2020-06-17 16:18:04,465 INFO     ___FILE_ONLY___  
+2020-06-17 16:18:04,465 INFO     ___FILE_ONLY___ │ 
+2020-06-17 16:18:04,465 INFO     ___FILE_ONLY___  < 1 MiB
+2020-06-17 16:18:04,465 INFO     ___FILE_ONLY___  
+2020-06-17 16:18:04,465 INFO     ___FILE_ONLY___ │
+2020-06-17 16:18:04,465 INFO     ___FILE_ONLY___ 
+
+2020-06-17 16:18:04,466 INFO     ___FILE_ONLY___ └─────────────────────────────────────────────────────┴────────────┴──────────┘
+2020-06-17 16:18:04,466 INFO     ___FILE_ONLY___ 
+
+2020-06-17 16:18:04,466 INFO     ___FILE_ONLY___ 
+
+2020-06-17 16:18:04,693 INFO     ___FILE_ONLY___ For the latest full release notes, please visit:
+  https://cloud.google.com/sdk/release_notes
+
+
+2020-06-17 16:18:04,698 INFO     ___FILE_ONLY___ ╔════════════════════════════════════════════════════════════╗
+
+2020-06-17 16:18:04,699 INFO     ___FILE_ONLY___ ╠═ Creating update staging area                             ═╣
+
+2020-06-17 16:18:04,699 INFO     ___FILE_ONLY___ ╚
+2020-06-17 16:18:04,699 INFO     ___FILE_ONLY___ ══════
+2020-06-17 16:18:04,699 INFO     ___FILE_ONLY___ ══════
+2020-06-17 16:18:04,699 INFO     ___FILE_ONLY___ ══════
+2020-06-17 16:18:04,813 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:04,870 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:04,904 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:04,946 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:04,991 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:05,022 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:05,048 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:05,184 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:05,206 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:05,224 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:05,242 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:05,269 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:05,297 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:05,324 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:05,382 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:05,409 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:05,436 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:05,458 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:05,482 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:05,520 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:05,562 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:05,593 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:05,619 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:05,645 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:05,671 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:05,699 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:05,725 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:05,766 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:05,806 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:05,832 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:05,860 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:05,898 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:05,930 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:05,963 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:05,987 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:06,010 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:06,037 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:06,061 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:06,085 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:06,111 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:06,134 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:06,167 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:06,168 INFO     ___FILE_ONLY___ ╝
+
+2020-06-17 16:18:06,290 INFO     ___FILE_ONLY___ ╔════════════════════════════════════════════════════════════╗
+
+2020-06-17 16:18:06,290 INFO     ___FILE_ONLY___ ╠═ Installing: BigQuery Command Line Tool                   ═╣
+
+2020-06-17 16:18:06,290 INFO     ___FILE_ONLY___ ╚
+2020-06-17 16:18:06,530 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:06,531 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:06,531 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:06,532 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:06,532 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:06,533 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:06,533 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:06,533 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:06,534 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:06,534 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:06,535 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:06,535 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:06,536 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:06,536 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:06,536 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:06,537 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:06,537 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:06,538 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:06,538 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:06,538 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:06,539 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:06,539 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:06,539 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:06,540 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:06,540 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:06,541 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:06,541 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:06,541 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:06,542 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:06,544 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:06,598 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:06,601 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:06,604 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:06,607 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:06,609 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:06,611 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:06,614 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:06,616 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:06,618 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:06,620 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:06,623 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:06,626 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:06,628 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:06,631 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:06,632 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:06,634 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:06,636 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:06,639 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:06,642 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:06,646 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:06,650 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:06,653 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:06,655 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:06,657 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:06,660 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:06,663 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:06,666 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:06,669 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:06,675 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:06,682 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:06,682 INFO     ___FILE_ONLY___ ╝
+
+2020-06-17 16:18:06,696 INFO     ___FILE_ONLY___ ╔════════════════════════════════════════════════════════════╗
+
+2020-06-17 16:18:06,697 INFO     ___FILE_ONLY___ ╠═ Installing: BigQuery Command Line Tool (Platform Spec... ═╣
+
+2020-06-17 16:18:06,697 INFO     ___FILE_ONLY___ ╚
+2020-06-17 16:18:06,922 INFO     ___FILE_ONLY___ ══════════════════════════════
+2020-06-17 16:18:06,923 INFO     ___FILE_ONLY___ ═══════════════
+2020-06-17 16:18:06,923 INFO     ___FILE_ONLY___ ═══════════════
+2020-06-17 16:18:06,923 INFO     ___FILE_ONLY___ ╝
+
+2020-06-17 16:18:06,932 INFO     ___FILE_ONLY___ ╔════════════════════════════════════════════════════════════╗
+
+2020-06-17 16:18:06,933 INFO     ___FILE_ONLY___ ╠═ Installing: Cloud SDK Core Libraries (Platform Specific) ═╣
+
+2020-06-17 16:18:06,933 INFO     ___FILE_ONLY___ ╚
+2020-06-17 16:18:07,171 INFO     ___FILE_ONLY___ ══════════════════════════════
+2020-06-17 16:18:07,173 INFO     ___FILE_ONLY___ ══════════
+2020-06-17 16:18:07,173 INFO     ___FILE_ONLY___ ═════════
+2020-06-17 16:18:07,173 INFO     ___FILE_ONLY___ ═══════════
+2020-06-17 16:18:07,174 INFO     ___FILE_ONLY___ ╝
+
+2020-06-17 16:18:07,183 INFO     ___FILE_ONLY___ ╔════════════════════════════════════════════════════════════╗
+
+2020-06-17 16:18:07,183 INFO     ___FILE_ONLY___ ╠═ Installing: Cloud Storage Command Line Tool              ═╣
+
+2020-06-17 16:18:07,183 INFO     ___FILE_ONLY___ ╚
+2020-06-17 16:18:07,444 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:07,446 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:07,447 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:07,448 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:07,449 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:07,451 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:07,452 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:07,454 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:07,455 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:07,456 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:07,457 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:07,458 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:07,460 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:07,461 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:07,462 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:07,463 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:07,464 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:07,465 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:07,465 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:07,466 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:07,466 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:07,467 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:07,467 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:07,468 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:07,468 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:07,469 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:07,469 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:07,470 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:07,470 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:07,473 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:07,757 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:07,774 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:07,788 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:07,805 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:07,818 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:07,830 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:07,841 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:07,854 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:07,869 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:07,887 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:07,904 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:07,922 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:07,937 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:07,955 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:07,968 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:07,981 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:08,002 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:08,024 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:08,041 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:08,056 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:08,070 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:08,085 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:08,102 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:08,119 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:08,131 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:08,143 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:08,154 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:08,173 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:08,186 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:08,200 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:08,201 INFO     ___FILE_ONLY___ ╝
+
+2020-06-17 16:18:08,259 INFO     ___FILE_ONLY___ ╔════════════════════════════════════════════════════════════╗
+
+2020-06-17 16:18:08,259 INFO     ___FILE_ONLY___ ╠═ Installing: Cloud Storage Command Line Tool (Platform... ═╣
+
+2020-06-17 16:18:08,260 INFO     ___FILE_ONLY___ ╚
+2020-06-17 16:18:08,502 INFO     ___FILE_ONLY___ ══════════════════════════════
+2020-06-17 16:18:08,503 INFO     ___FILE_ONLY___ ═══════════════
+2020-06-17 16:18:08,503 INFO     ___FILE_ONLY___ ═══════════════
+2020-06-17 16:18:08,503 INFO     ___FILE_ONLY___ ╝
+
+2020-06-17 16:18:08,513 INFO     ___FILE_ONLY___ ╔════════════════════════════════════════════════════════════╗
+
+2020-06-17 16:18:08,514 INFO     ___FILE_ONLY___ ╠═ Installing: Default set of gcloud commands               ═╣
+
+2020-06-17 16:18:08,514 INFO     ___FILE_ONLY___ ╚
+2020-06-17 16:18:08,519 INFO     ___FILE_ONLY___ ════════════════════════════════════════════════════════════
+2020-06-17 16:18:08,519 INFO     ___FILE_ONLY___ ╝
+
+2020-06-17 16:18:08,523 INFO     ___FILE_ONLY___ ╔════════════════════════════════════════════════════════════╗
+
+2020-06-17 16:18:08,524 INFO     ___FILE_ONLY___ ╠═ Installing: anthoscli                                    ═╣
+
+2020-06-17 16:18:08,524 INFO     ___FILE_ONLY___ ╚
+2020-06-17 16:18:08,529 INFO     ___FILE_ONLY___ ════════════════════════════════════════════════════════════
+2020-06-17 16:18:08,529 INFO     ___FILE_ONLY___ ╝
+
+2020-06-17 16:18:08,533 INFO     ___FILE_ONLY___ ╔════════════════════════════════════════════════════════════╗
+
+2020-06-17 16:18:08,534 INFO     ___FILE_ONLY___ ╠═ Installing: anthoscli                                    ═╣
+
+2020-06-17 16:18:08,534 INFO     ___FILE_ONLY___ ╚
+2020-06-17 16:18:08,768 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:08,779 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:08,786 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:08,793 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:08,801 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:08,808 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:08,815 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:08,822 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:08,829 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:08,836 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:08,843 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:08,850 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:08,857 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:08,864 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:08,871 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:08,878 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:08,885 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:08,891 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:08,898 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:08,905 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:08,912 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:08,919 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:08,926 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:08,933 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:08,940 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:08,947 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:08,954 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:08,961 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:08,968 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:08,976 INFO     ___FILE_ONLY___ ═
+2020-06-17 16:18:09,732 INFO     ___FILE_ONLY___ ═════
+2020-06-17 16:18:09,732 INFO     ___FILE_ONLY___ ═════
+2020-06-17 16:18:09,754 INFO     ___FILE_ONLY___ ═════
+2020-06-17 16:18:09,759 INFO     ___FILE_ONLY___ ════
+2020-06-17 16:18:09,759 INFO     ___FILE_ONLY___ ══════
+2020-06-17 16:18:10,666 INFO     ___FILE_ONLY___ ═════
+2020-06-17 16:18:10,666 INFO     ___FILE_ONLY___ ╝
+
+2020-06-17 16:18:10,684 INFO     ___FILE_ONLY___ ╔════════════════════════════════════════════════════════════╗
+
+2020-06-17 16:18:10,685 INFO     ___FILE_ONLY___ ╠═ Installing: gcloud cli dependencies                      ═╣
+
+2020-06-17 16:18:10,685 INFO     ___FILE_ONLY___ ╚
+2020-06-17 16:18:10,942 INFO     ___FILE_ONLY___ ══════════════════════════════
+2020-06-17 16:18:10,944 INFO     ___FILE_ONLY___ ══════
+2020-06-17 16:18:10,944 INFO     ___FILE_ONLY___ ══════
+2020-06-17 16:18:10,944 INFO     ___FILE_ONLY___ ══════
+2020-06-17 16:18:10,944 INFO     ___FILE_ONLY___ ══════
+2020-06-17 16:18:10,945 INFO     ___FILE_ONLY___ ══════
+2020-06-17 16:18:10,945 INFO     ___FILE_ONLY___ ╝
+
+2020-06-17 16:18:10,954 INFO     ___FILE_ONLY___ ╔════════════════════════════════════════════════════════════╗
+
+2020-06-17 16:18:10,954 INFO     ___FILE_ONLY___ ╠═ Creating backup and activating new installation          ═╣
+
+2020-06-17 16:18:10,954 INFO     ___FILE_ONLY___ ╚
+2020-06-17 16:18:10,955 DEBUG    root            Attempting to move directory [/tools/google-cloud-sdk] to [/tools/google-cloud-sdk.staging/.install/.backup]
+2020-06-17 16:18:10,955 INFO     ___FILE_ONLY___ ══════════════════════════════
+2020-06-17 16:18:10,955 DEBUG    root            Attempting to move directory [/tools/google-cloud-sdk.staging] to [/tools/google-cloud-sdk]
+2020-06-17 16:18:10,955 INFO     ___FILE_ONLY___ ══════════════════════════════
+2020-06-17 16:18:10,955 INFO     ___FILE_ONLY___ ╝
+
+2020-06-17 16:18:10,959 DEBUG    root            Updating notification cache...
+2020-06-17 16:18:10,960 INFO     ___FILE_ONLY___ 
+
+2020-06-17 16:18:10,964 INFO     ___FILE_ONLY___ Performing post processing steps...
+2020-06-17 16:18:10,964 DEBUG    root            Executing command: ['python3', '-S', '/tools/google-cloud-sdk/lib/gcloud.py', 'components', 'post-process']
+2020-06-17 16:18:24,116 DEBUG    ___FILE_ONLY___ 
+2020-06-17 16:18:24,116 DEBUG    ___FILE_ONLY___ 
+2020-06-17 16:18:24,235 INFO     ___FILE_ONLY___ 
+Update done!
+
+
+2020-06-17 16:18:24,240 INFO     root            Display format: "none"
